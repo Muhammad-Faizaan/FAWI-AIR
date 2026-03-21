@@ -1,10 +1,10 @@
-# FΛVI AIR v1.0.0 — Release (FΛVI AIR for GPS-denied autonomy)
+# FΛWI AIR v1.0.0 — Release (FΛVI AIR for GPS-denied autonomy)
 
-**FΛVI AIR is the primary aerial node of the FΛVI network, bridging the gap between digital intelligence and physical autonomy.**
+**FΛWI AIR is the primary aerial node of the FΛWAN network, bridging the gap between digital intelligence and physical autonomy.**
 
 This marks the official launch of FΛVI AIR, an autonomous aerial platform designed for GPS-denied indoor environments. This release establishes the core architecture for Physical AI-driven flight and real-time industrial telemetry.
 
-# FΛVI AIR is a silent, secure, and self-flying indoor agent that provides real-time eyes on your most critical infrastructure, even in areas where GPS and humans can't easily go.
+# FΛWI AIR is a silent, secure, and self-flying indoor agent that provides real-time eyes on your most critical infrastructure, even in areas where GPS and humans can't easily go.
 
 <img width="1920" height="1080" alt="Screenshot (219)" src="https://github.com/user-attachments/assets/4f482a54-666d-43b9-ba62-1579756e411d" />
 
