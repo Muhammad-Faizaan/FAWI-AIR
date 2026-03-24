@@ -1,151 +1,118 @@
-# FΛWI AIR v1.0.0 — Release (FΛVI AIR for GPS-denied autonomy)
+#  FΛWI AIR v1.5.0 — The "Autonomous Intelligence" Update
+### GPS-Denied Aerial Autonomy & Physical AI Core
+**A Product of FΛWΛN INTELLIGENCE**
+
+<img width="200" height="200" alt="give_me_a_202603241648" src="https://github.com/user-attachments/assets/bfc8dc23-1021-4424-9679-c53c05cec795" />
+
 FAWI AIR is a GPS-Denied Autonomy platform. It uses LiDAR and AI to help drones navigate dangerous areas where satellites can't reach.
-![change_the_position_202603241349](https://github.com/user-attachments/assets/748800b7-6f6d-4d9e-b51e-6bec951d14ce)
 
+[![Live Dashboard](https://img.shields.io/badge/Status-Live_Deployment-cyan?style=for-the-badge)](https://2b53801f-ca1b-4f85-98c0-0ae46c570eef-00-2vfj6k128lygq.picard.replit.dev/)
+[![Tech Stack](https://img.shields.io/badge/2026_Standard-WebGPU_%7C_ROS2_Jazzy-blue?style=for-the-badge)](https://github.com/Muhammad-Faizaan/FAWI-AIR)
 
-**FΛWI AIR is the primary aerial node of the FΛWAN network, bridging the gap between digital intelligence and physical autonomy.**
-
-This marks the official launch of FΛVI AIR, an autonomous aerial platform designed for GPS-denied indoor environments. This release establishes the core architecture for Physical AI-driven flight and real-time industrial telemetry.
-
-# FΛWI AIR is a silent, secure, and self-flying indoor agent that provides real-time eyes on your most critical infrastructure, even in areas where GPS and humans can't easily go.
-
-<img width="1920" height="1080" alt="Screenshot (219)" src="https://github.com/user-attachments/assets/4f482a54-666d-43b9-ba62-1579756e411d" />
-
-<img width="1920" height="1080" alt="Screenshot (218)" src="https://github.com/user-attachments/assets/613cf7f8-7de2-45c6-a80a-947e00fc9b81" />
+> **FΛWI AIR** is the definitive "Digital Brain" for stealth aerial nodes. Designed for high-interference and GPS-jammed environments, it utilizes 360° LiDAR fusion and Agentic AI to navigate where satellites cannot reach.
 
 ---
 
-## ## **Key Features**
+## 🛠 Strategic Capabilities (2026 Edition)
 
-* **FΛVI CORE Logic:** Initial implementation of the "Agentic Brain" for state management (Idle, Patrol, Emergency).
-* **Physical AI Navigation:** Modular framework for SLAM 4.0 and 360° LiDAR sensor fusion.
-* **Cyan-Carbon Dashboard:** A high-fidelity React interface for real-time telemetry via WebSockets.
-* **Stealth Mode:** Integrated logic for ultra-silent operation (**<45dB** target) in sensitive environments.
+* **GPS-Denied Autonomy:** Advanced Visual Odometry and IMU-Kinematics that allow for precise navigation in tunnels, bunkers, and electronic warfare zones.
+* **LiDAR Telemetry 4.0:** Real-time 3D spatial mapping using WebGPU-accelerated point clouds for <30ms obstacle detection.
+* **Agentic Brain (FΛVI CORE):** A self-correcting state machine (Idle, Patrol, Tactical, Emergency) that makes split-second decisions without a human pilot.
+* **Glassmorphism 2.0 HUD:** A Next.js 16 powered "Dark Cockpit" interface providing real-time telemetry, altitude gradients, and path prediction.
+* **AI-Native Search (RAG):** Natural language interface allowing operators to query flight data: *"Show me all objects detected within 5m during the last patrol."*
+
+---
+1. Operational Command Center
+   
+   "Unified mission control interface for real-time autonomous fleet management and state monitoring."
+<img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/f5ad0f0d-78de-4b2b-97db-5981b1a073c1" />
+
+<img width="1920" height="1080" alt="6" src="https://github.com/user-attachments/assets/63b8b091-ea8b-4855-9174-d30cc20068b2" />
+
+2. GPS-Denied Spatial Navigation
+   
+   "Proprietary SLAM 4.0 algorithms enabling high-precision 3D mapping in satellite-blocked environments."
+<img width="1920" height="1080" alt="2" src="https://github.com/user-attachments/assets/2bc2de6f-cd5f-4d02-99d2-31d14e2cb8f0" />
+<img width="1920" height="1080" alt="3" src="https://github.com/user-attachments/assets/23b0b143-6c64-421f-a6ea-b31a49d99aa2" />
+<img width="1920" height="1080" alt="4" src="https://github.com/user-attachments/assets/9c917a40-b524-4fd9-90a6-82db4cca0999" />
+
+4. Atmospheric Intelligence Hub
+   
+   "Real-time METAR/TAF integration for dynamic flight-safety adjustments based on local weather core data."
+<img width="1920" height="1080" alt="7" src="https://github.com/user-attachments/assets/73a5e4d5-dc48-4dc7-bddd-916228ed3120" />
+
+6. Performance & Telemetry Analytics
+   
+   "Deep-data diagnostics tracking sinusoidal altitude profiles and signal distribution for mission optimization."
+<img width="1920" height="1080" alt="8" src="https://github.com/user-attachments/assets/36481ece-7f9f-43ed-918f-5710439b63d6" />
+<img width="1920" height="1080" alt="9" src="https://github.com/user-attachments/assets/2ff91eb0-9a7f-4933-9f10-fe675eed02b6" />
+
+7. Tactical Emergency Control
+   
+   "Automated fail-safe architecture with LiDAR noise filtering and hardware-level emergency abort protocols."
+<img width="1920" height="1080" alt="10" src="https://github.com/user-attachments/assets/05144d4d-bd4a-4659-a56a-2699cb81eaed" />
+
+## 🏗 System Architecture
+
+FΛWI AIR operates on a **Local-First, Edge-Synced** architecture to ensure zero latency and maximum security.
+
+* **OS:** ROS 2 Jazzy Jalisco (Ubuntu 24.04 LTS).
+* **Rendering:** WebGPU for hardware-accelerated tactical maps.
+* **Database:** Supabase (Relational) + Upstash Redis (Real-time Telemetry Caching).
+* **Security:** Passkey-first authentication and AES-256 local-first data encryption.
 
 ---
 
-## ## **Technical Architecture**
+## 🚀 Deployment & Installation
 
-* **OS:** ROS 2 Jazzy Jalisco (Ubuntu 24.04) support.
-* **Communication:** Secure WebSocket bridge between the on-board Physical AI and the Command Center.
-* **Safety:** Hard-coded "Kill-Switch" protocols and local-first data encryption for industrial security.
+### **Direct Access**
+Experience the Command Center live: **[Launch FΛWI AIR Dashboard](https://2b53801f-ca1b-4f85-98c0-0ae46c570eef-00-2vfj6k128lygq.picard.replit.dev/)**
 
----
+### **Local Environment Setup**
 
+1. **System Prep & Dependencies**
+   ```bash
+   sudo apt update && sudo apt upgrade -y
+   sudo apt install -y python3-colcon-common-extensions git
+   ```
 
-https://github.com/user-attachments/assets/fc8d86be-0c6f-4a20-85fb-4ad5cbee98da
+2. **Clone & Initialize**
+   ```bash
+   git clone [https://github.com/Muhammad-Faizaan/FAWI-AIR.git](https://github.com/Muhammad-Faizaan/FAWI-AIR.git)
+   cd FAWI-AIR
+   ```
 
+3. **Build the Physical AI Node**
+   ```bash
+   source /opt/ros/jazzy/setup.bash
+   colcon build --packages-select favi_core
+   source install/setup.bash
+   ```
 
-
-## ## **Installation**
-
-To access the live deployment, visit the application link below:
-**[Launch FΛVI AIR Dashboard](https://www.google.com/search?q=https://2b53801f-ca1b-4f85-98c0-0ae46c570eef-00-2vfj6k128lygq.picard.replit.dev)**
-
-### **CLI Setup (Local Environment)**
-
-1. **Update System & Install Dependencies**
-```bash
-sudo apt update && sudo apt upgrade -y
-sudo apt install -y python3-colcon-common-extensions git
-
-```
-
-
-2. **Clone the Repository**
-```bash
-git clone https://github.com/your-repo/favi-air.git
-cd favi-air
-
-```
-
-
-3. **Initialize the Agentic Brain**
-```bash
-source /opt/ros/jazzy/setup.bash
-colcon build --packages-select favi_core
-source install/setup.bash
-
-```
-
-
-4. **Launch the Node**
-```bash
-ros2 launch favi_air physical_ai_launch.py
-
-```
-
-
+4. **Launch Tactical HUD**
+   ```bash
+   ros2 launch favi_air physical_ai_launch.py
+   ```
 
 ---
 
-## ## **Configuration**
+## ⚙️ Tactical Configuration (`fusion_config.yaml`)
 
-### **LiDAR Sensor Fusion Parameters**
-
-To fine-tune the spatial awareness and obstacle detection, modify the `fusion_config.yaml` located in the `favi_core/config/` directory.
-
-| Parameter | Type | Default | Description |
-| --- | --- | --- | --- |
-| `scan_range_max` | float | `12.0` | Maximum distance (meters) for LiDAR detection. |
-| `fusion_weight_lidar` | float | `0.85` | Confidence weight for LiDAR vs IMU data. |
-| `voxel_grid_size` | float | `0.05` | Resolution of the 3D map point cloud. |
-| `collision_buffer` | float | `0.3` | Safety radius (meters) maintained around the node. |
+| Parameter | Type | 2026 Default | Military Use Case |
+| :--- | :--- | :--- | :--- |
+| `scan_range_max` | float | `25.0` | Long-range perimeter scanning. |
+| `fusion_weight_lidar`| float | `0.92` | Prioritizes laser data over unreliable GPS. |
+| `collision_buffer` | float | `0.5` | Safety radius for high-speed indoor flight. |
+| `stealth_mode_rpm` | int | `1200` | Limits motor noise to <45dB for covert ops. |
 
 ---
 
-## ## **Troubleshooting**
+## 🛰 Strategic Vision: FΛWΛN SYNC
+FΛWI AIR is a core node of the **FΛWΛN INTELLIGENCE** ecosystem. By bridging the gap between digital AI and physical robotics, we are securing the future of autonomous national defense and industrial safety.
 
-If you encounter issues during deployment, check the common ROS 2 error fixes below:
-
-### **1. Package Not Found**
-
-**Error:** `package 'favi_core' not found`
-
-* **Fix:** Ensure you have sourced your local workspace after building.
-```bash
-source install/setup.bash
-
-```
-
-
-
-### **2. Middleware (DDS) Issues**
-
-**Error:** Nodes cannot see each other or `ros2 topic list` is empty.
-
-* **Fix:** Check your `ROS_DOMAIN_ID`. Ensure all components are on the same ID (default is 0).
-```bash
-export ROS_DOMAIN_ID=0
-
-```
-
-
-
-### **3. Permission Denied (Serial/USB)**
-
-**Error:** Cannot connect to LiDAR or MCU via USB.
-
-* **Fix:** Add your user to the `dialout` group to access serial ports.
-```bash
-sudo usermod -a -G dialout $USER
-
-```
-
-
-
-### **4. Build Failures**
-
-**Error:** `colcon build` fails due to missing dependencies.
-
-* **Fix:** Use `rosdep` to install all required system dependencies automatically.
-```bash
-rosdep install -i --from-path src --rosdistro jazzy -y
-
-```
-
-
+**Contact for Defense Partnerships:** [FΛWΛN INTELLIGENCE — Official Portal]  
+*Indigenously developed in Pakistan for global resilience.*
 
 ---
-
-**Developed by:** FΛVI
+© 2026 FΛWΛN INTELLIGENCE. All Rights Reserved.
+```
