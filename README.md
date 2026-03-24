@@ -1,5 +1,5 @@
 # FΛWI AIR v1.0.0 — Release (FΛVI AIR for GPS-denied autonomy)
-
+FAWI AIR is a GPS-Denied Autonomy platform. It uses LiDAR and AI to help drones navigate dangerous areas where satellites can't reach.
 ![change_the_position_202603241349](https://github.com/user-attachments/assets/748800b7-6f6d-4d9e-b51e-6bec951d14ce)
 
 
