@@ -1,4 +1,7 @@
-# FΛWI AIR v1.0.0 — Release (FΛVI AIR for GPS-denied autonomy)
+![unnamed (1)](https://github.com/user-attachments/assets/bc76a53c-f304-4501-b0ca-70f091f9ef5f)# FΛWI AIR v1.0.0 — Release (FΛVI AIR for GPS-denied autonomy)
+
+![change_the_position_202603241349](https://github.com/user-attachments/assets/748800b7-6f6d-4d9e-b51e-6bec951d14ce)
+
 
 **FΛWI AIR is the primary aerial node of the FΛWAN network, bridging the gap between digital intelligence and physical autonomy.**
 
